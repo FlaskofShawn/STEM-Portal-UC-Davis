@@ -8,7 +8,7 @@ For our project, our group was assigned the UC Davis Stem Portal. Nowadays, anyt
 
 For this process, we needed to use many R libraries, including stringr, rvest, XML, NLP, and tm. The first level we scraped was https://stem.ucdavis.edu/resources. From this page, we iterated through 22 pages and created a folder for each individual resource, which came to a grand total of 215 resources/programs. We made each resource into a folder, which was named “STEM_resources_program_(number)” followed by the order the folder was created. We then scraped the text and put it into two separate text files named “cleaned_text” and “raw_text”. After this, we went into each resource and scraped the links from them that contained “ucdavis.edu”. We did this so that we would only get sub links that were directly applicable to our research question regarding STEM in UC Davis specifically. We did not want to get any unwanted external links about STEM that were unrelated to UC Davis. As our process continues, we created more folders for every sublink that was found inside the resource folder. Each resource folder now had about 20-30 folders in them, with each folder containing two text files, “**second_cleaned_text**” and “**second_raw_text**”. At the end of all this, we concluded with 4966 folders and 9932 files. Below is an example of how we organized the files and what our final result looked like.
 
-![1st_level_pages](D:\Code\collegeProjects\Sweet Cheetos (STEM portal)\STEM-Portal-UC-Davis\1st_level_pages.png)
+![1st_level_pages](https://github.com/FlaskofShawn/STEM-Portal-UC-Davis/blob/main/1st_level_pages.png?raw=true)
 
 ![2nd_level_pages](D:\Code\collegeProjects\Sweet Cheetos (STEM portal)\STEM-Portal-UC-Davis\2nd_level_pages.png)
 
