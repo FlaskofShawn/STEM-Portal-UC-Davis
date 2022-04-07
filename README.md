@@ -10,7 +10,7 @@ For this process, we needed to use many R libraries, including stringr, rvest, X
 
 ![1st_level_pages](https://github.com/FlaskofShawn/STEM-Portal-UC-Davis/blob/main/1st_level_pages.png?raw=true)
 
-![2nd_level_pages](D:\Code\collegeProjects\Sweet Cheetos (STEM portal)\STEM-Portal-UC-Davis\2nd_level_pages.png)
+![2nd_level_pages](https://github.com/FlaskofShawn/STEM-Portal-UC-Davis/blob/main/2nd_level_pages.png?raw=true)
 
  When we cleaned our text, we also made sure to change everything to lowercase so that everything would be uniform and same words that had an uppercase letter would not be considered a different word as the ones with a lowercase letter. Similarly, we used the removed the punctuation. In our code, we used a nested for loop to accomplish this. We had an outer loop that ran through all of the pages of resources. We then had another loop to get the links inside each of the resources. We would then clean each file inside the loop. Another thing we needed to add in our loops was a try-catch method. We needed this method to avoid any errors or incorrect URLs. Initially, this was difficult because we had so many errors and since there were so many links and pages, there was no way for us to find every single error that our program had encountered, so adding the try-catch method made this a lot easier. We included a blacklist as well to clean out some of the junk strings that we kept seeing repeatedly. We also changed the numbers on the pages into #numeric so that instead of many different numbers showing up in the word frequency, they would all be put into one large category together.
 
